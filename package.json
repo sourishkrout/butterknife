@@ -1,0 +1,38 @@
+{
+  "name": "butterknife",
+  "version": "0.0.1",
+  "description": "Spread the awesome blend of Grunt.js, Travis and Sauce",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sourishkrout/butterknife.git"
+  },
+  "keywords": [
+    "Grunt.js",
+    "Travis",
+    "Sauce",
+    "Labs",
+    "Javascript",
+    "Unit",
+    "Testing"
+  ],
+  "author": "Sebastian Tiedtke",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "cb9ff40688984aafb26feb7ef95886ebf9d5bfdc",
+  "bugs": {
+    "url": "https://github.com/sourishkrout/butterknife/issues"
+  },
+  "bin": {
+    "butterknife": "bin/butterknife"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "escodegen": "0.0.22",
+    "esprima": "~1.0.3",
+    "js-yaml": "~2.1.0",
+    "async": "~0.2.9"
+  }
+}
