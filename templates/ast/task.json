@@ -1,0 +1,40 @@
+{
+  "type": "ExpressionStatement",
+  "expression": {
+    "type": "CallExpression",
+    "callee": {
+      "type": "MemberExpression",
+      "computed": false,
+      "object": {
+        "type": "Identifier",
+        "name": "grunt"
+      },
+      "property": {
+        "type": "Identifier",
+        "name": "registerTask"
+      }
+    },
+    "arguments": [
+      {
+        "type": "Literal",
+        "value": "sauce",
+        "raw": "'sauce'"
+      },
+      {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "Literal",
+            "value": "connect",
+            "raw": "'connect'"
+          },
+          {
+            "type": "Literal",
+            "value": "saucelabs-qunit",
+            "raw": "'saucelabs-qunit'"
+          }
+        ]
+      }
+    ]
+  }
+}

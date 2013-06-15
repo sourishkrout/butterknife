@@ -1,0 +1,99 @@
+{
+  "type": "Property",
+  "key": {
+    "type": "Literal",
+    "value": "saucelabs-"
+  },
+  "value": {
+    "type": "ObjectExpression",
+    "properties": [
+      {
+        "type": "Property",
+        "key": {
+          "type": "Identifier",
+          "name": "all"
+        },
+        "value": {
+          "type": "ObjectExpression",
+          "properties": [
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "options"
+              },
+              "value": {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "urls"
+                    },
+                    "value": {
+                      "type": "ArrayExpression",
+                      "elements": []
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "tunnelTimeout"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 5
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "concurrency"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 3
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "browsers"
+                    },
+                    "value": {
+                      "type": "Identifier",
+                      "name": "browsers"
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "testname"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "qunit tests"
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              "kind": "init"
+            }
+          ]
+        },
+        "kind": "init"
+      }
+    ]
+  },
+  "kind": "init"
+}

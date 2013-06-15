@@ -1,0 +1,300 @@
+{
+  "type": "VariableDeclaration",
+  "declarations": [
+    {
+      "type": "VariableDeclarator",
+      "id": {
+        "type": "Identifier",
+        "name": "browsers"
+      },
+      "init": {
+        "type": "ArrayExpression",
+        "elements": [
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "firefox",
+                  "raw": "'firefox'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "version"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "19",
+                  "raw": "'19'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "XP",
+                  "raw": "'XP'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "chrome",
+                  "raw": "'chrome'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "XP",
+                  "raw": "'XP'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "chrome",
+                  "raw": "'chrome'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "linux",
+                  "raw": "'linux'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "internet explorer",
+                  "raw": "'internet explorer'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "WIN8",
+                  "raw": "'WIN8'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "version"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "10",
+                  "raw": "'10'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "internet explorer",
+                  "raw": "'internet explorer'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "VISTA",
+                  "raw": "'VISTA'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "version"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "9",
+                  "raw": "'9'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "internet explorer",
+                  "raw": "'internet explorer'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "XP",
+                  "raw": "'XP'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "version"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "8",
+                  "raw": "'8'"
+                },
+                "kind": "init"
+              }
+            ]
+          },
+          {
+            "type": "ObjectExpression",
+            "properties": [
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "browserName"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "opera",
+                  "raw": "'opera'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "platform"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "Windows 2008",
+                  "raw": "'Windows 2008'"
+                },
+                "kind": "init"
+              },
+              {
+                "type": "Property",
+                "key": {
+                  "type": "Identifier",
+                  "name": "version"
+                },
+                "value": {
+                  "type": "Literal",
+                  "value": "12",
+                  "raw": "'12'"
+                },
+                "kind": "init"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "kind": "var"
+}

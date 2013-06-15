@@ -1,0 +1,54 @@
+{
+  "deps": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "grunt"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "loadNpmTasks"
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "grunt-saucelabs",
+            "raw": "'grunt-saucelabs'"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "grunt"
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "loadNpmTasks"
+          }
+        },
+        "arguments": [
+          {
+            "type": "Literal",
+            "value": "grunt-contrib-connect",
+            "raw": "'grunt-contrib-connect'"
+          }
+        ]
+      }
+    }
+  ]
+}

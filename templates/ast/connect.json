@@ -1,0 +1,63 @@
+{
+  "type": "Property",
+  "key": {
+    "type": "Identifier",
+    "name": "connect"
+  },
+  "value": {
+    "type": "ObjectExpression",
+    "properties": [
+      {
+        "type": "Property",
+        "key": {
+          "type": "Identifier",
+          "name": "server"
+        },
+        "value": {
+          "type": "ObjectExpression",
+          "properties": [
+            {
+              "type": "Property",
+              "key": {
+                "type": "Identifier",
+                "name": "options"
+              },
+              "value": {
+                "type": "ObjectExpression",
+                "properties": [
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "base"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": "."
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
+                      "name": "port"
+                    },
+                    "value": {
+                      "type": "Literal",
+                      "value": 9999
+                    },
+                    "kind": "init"
+                  }
+                ]
+              },
+              "kind": "init"
+            }
+          ]
+        },
+        "kind": "init"
+      }
+    ]
+  },
+  "kind": "init"
+}
