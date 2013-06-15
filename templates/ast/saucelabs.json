@@ -53,6 +53,44 @@
                     "type": "Property",
                     "key": {
                       "type": "Identifier",
+                      "name": "build"
+                    },
+                    "value": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "MemberExpression",
+                        "computed": false,
+                        "object": {
+                          "type": "CallExpression",
+                          "callee": {
+                            "type": "Identifier",
+                            "name": "require"
+                          },
+                          "arguments": [
+                            {
+                              "type": "Literal",
+                              "value": "process",
+                              "raw": "'process'"
+                            }
+                          ]
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "name": "env"
+                        }
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "TRAVIS_JOB_ID"
+                      }
+                    },
+                    "kind": "init"
+                  },
+                  {
+                    "type": "Property",
+                    "key": {
+                      "type": "Identifier",
                       "name": "concurrency"
                     },
                     "value": {
