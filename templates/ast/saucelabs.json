@@ -119,7 +119,7 @@
                     },
                     "value": {
                       "type": "Literal",
-                      "value": "qunit tests"
+                      "value": "javascript unit tests"
                     },
                     "kind": "init"
                   }
