@@ -38,6 +38,8 @@
     "underscore": "~1.4.4",
     "npm": "~1.2.30",
     "process": "~0.5.1",
-    "travis-encrypt": "~0.1.4"
+    "travis-encrypt": "~0.1.4",
+    "init-package-json": "0.0.9",
+    "glob": "~3.2.1"
   }
 }
