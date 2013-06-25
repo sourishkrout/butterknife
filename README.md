@@ -25,6 +25,12 @@ Will install the butterknife command line tool globally in your path.
 
 Usage
 =====
+Put your Sauce Labs account details into you environment. butterknife will call out to Travis CI to encrypt the env variables and put the encrypted digest in your .travis.yml.
+```
+~ export SAUCE_ACCESS_KEY=5e4ebbed-8ed6-716a-31b5-e576d33e5146
+~ export SAUCE_USERNAME=sourishkrout
+```
+
 Just change into your git repo dir and run the command line tool.
 
 ```
@@ -32,6 +38,13 @@ Just change into your git repo dir and run the command line tool.
 ~ butterknife
 ```
 
+Give it dry run from your local machine. Please note you may have to install grunt-cli globally first.
+
+```
+~ npm install -g grunt-cli
+~ grunt
+```
+
 Issues
 ======
-Please use the github issue tracker if you have any problems. Please also note that butterknife is still in an early beta stage.
+Please use the github issue tracker if you have any problems. Please also note that butterknife is still in an early beta stage. Pull requests very welcome!
