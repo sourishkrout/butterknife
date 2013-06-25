@@ -1,6 +1,6 @@
 {
   "name": "butterknife",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Spread the awesome blend of Grunt.js, Travis and Sauce",
   "scripts": {
     "test": "grunt test"
